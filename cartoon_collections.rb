@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planeteers)
   newPlaneteers = []
-  planeteers.each {|planeteer| newPlaneteers << planeteer + "!"}
+  planeteers.each {|planeteer| newPlaneteers << planeteer.capitalize + "!"}
   return newPlaneteers
 end
 
