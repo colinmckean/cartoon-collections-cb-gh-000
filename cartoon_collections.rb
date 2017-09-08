@@ -3,6 +3,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteers)
+  i = 0
+  while i < planeteers.size
+    yield("#{planeteers[i]}")
+  end
+    
   return planeteers
 end
 
