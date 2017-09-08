@@ -9,6 +9,7 @@ def summon_captain_planet(planeteers)
 end
 
 def long_planeteer_calls(planeteers)
+  planeteers.each {|planeteer| return true if planeteer.size > 4 }
 end
 
 def find_the_cheese(cheese)
